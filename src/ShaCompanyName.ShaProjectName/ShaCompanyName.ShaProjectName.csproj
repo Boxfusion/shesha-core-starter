@@ -19,6 +19,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Domain\**" />
+    <Compile Remove="Migrations\**" />
+    <Compile Remove="Services\**" />
+    <EmbeddedResource Remove="Domain\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="Domain\**" />
+    <None Remove="Migrations\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Localization\SourceFiles\ShaProjectName.xml" />
   </ItemGroup>
 
@@ -40,12 +52,6 @@
     <PackageReference Include="Shesha.NHibernate" Version="0.0.1" />
     <PackageReference Include="Shesha.Scheduler" Version="0.0.1" />
     <PackageReference Include="Shesha.Web.Controls" Version="0.0.1" />	
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Domain\" />
-    <Folder Include="Migrations\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>
