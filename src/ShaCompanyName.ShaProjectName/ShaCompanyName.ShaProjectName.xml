@@ -70,6 +70,9 @@
             <param name="person"></param>
             <returns></returns>
         </member>
+        <member name="M:ShaCompanyName.ShaProjectName.Authorization.ShaProjectNamePermissionChecker.IsGranted(System.Int64,System.String)">
+            inheritedDoc
+        </member>
         <member name="T:ShaCompanyName.ShaProjectName.Configuration.ShaProjectNameSettingNames">
             <summary>
             Contains setting names for ShaProjectNames

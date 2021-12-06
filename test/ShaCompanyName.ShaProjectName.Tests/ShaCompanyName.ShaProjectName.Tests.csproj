@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Shesha.Application" Version="0.0.1" />
-    <PackageReference Include="Shesha.NHibernate" Version="0.0.1" />
+    <PackageReference Include="Shesha.Application" Version="0.3.25" />
+    <PackageReference Include="Shesha.NHibernate" Version="0.3.25" />
     <ProjectReference Include="..\..\src\ShaCompanyName.ShaProjectName\ShaCompanyName.ShaProjectName.csproj" />
   </ItemGroup>
 	<ItemGroup>

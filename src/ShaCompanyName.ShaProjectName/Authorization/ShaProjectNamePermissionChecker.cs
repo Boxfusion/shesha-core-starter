@@ -5,6 +5,7 @@ using Abp.Domain.Repositories;
 using NHibernate.Linq;
 using Shesha.Authorization;
 using Shesha.Domain;
+using Shesha.Utilities;
 
 namespace ShaCompanyName.ShaProjectName.Authorization
 {
@@ -58,6 +59,12 @@ namespace ShaCompanyName.ShaProjectName.Authorization
         public async Task<bool> IsDataAdministrator(Person person)
         {
             return await IsInAnyOfRoles(person, RoleNames.DataAdministrator);
+        }
+
+        /// inheritedDoc
+        public bool IsGranted(long userId, string permissionName)
+        {
+            return AsyncHelper.RunSync(() => IsGrantedAsync(userId, permissionName));
         }
     }
 }
