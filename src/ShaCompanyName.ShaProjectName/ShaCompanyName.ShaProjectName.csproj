@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
     <RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
@@ -46,12 +46,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Shesha.Application" Version="0.3.25" />
-    <PackageReference Include="Shesha.Core" Version="0.3.25" />
-    <PackageReference Include="Shesha.Framework" Version="0.3.25" />
-    <PackageReference Include="Shesha.NHibernate" Version="0.3.25" />
-    <PackageReference Include="Shesha.Scheduler" Version="0.3.25" />
-    <PackageReference Include="Shesha.Web.Controls" Version="0.3.25" />	
+    <PackageReference Include="Shesha.Application" Version="0.3.29" />
+    <PackageReference Include="Shesha.Core" Version="0.3.29" />
+    <PackageReference Include="Shesha.Framework" Version="0.3.29" />
+    <PackageReference Include="Shesha.NHibernate" Version="0.3.29" />
+    <PackageReference Include="Shesha.Scheduler" Version="0.3.29" />
+    <PackageReference Include="Shesha.Web.Controls" Version="0.3.29" />	
   </ItemGroup>
 
 </Project>
