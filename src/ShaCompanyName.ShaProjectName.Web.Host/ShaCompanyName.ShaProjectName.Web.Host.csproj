@@ -36,14 +36,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="ElmahCore" Version="2.0.6" />
-    <PackageReference Include="Shesha.Elmah" Version="0.3.29" />
+    <PackageReference Include="ElmahCore" Version="2.1.2" />
+    <PackageReference Include="Shesha.Elmah" Version="0.3.107" />
     <ProjectReference Include="..\ShaCompanyName.ShaProjectName.Web.Core\ShaCompanyName.ShaProjectName.Web.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Abp.Castle.Log4Net" Version="5.0.0" />
-    <PackageReference Include="Abp.HangFire.AspNetCore" Version="5.0.0" />
-    <PackageReference Include="Hangfire.SqlServer" Version="1.7.6" />
+    <PackageReference Include="Abp.Castle.Log4Net" Version="6.6.2" />
+    <PackageReference Include="Abp.HangFire.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.7.25" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.2">
       <PrivateAssets>all</PrivateAssets>

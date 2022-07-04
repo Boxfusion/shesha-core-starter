@@ -39,19 +39,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Abp" Version="5.0.0" />
+    <PackageReference Include="Abp" Version="6.6.2" />
     <PackageReference Include="FluentMigrator" Version="3.2.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
     <PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.13" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Shesha.Application" Version="0.3.29" />
-    <PackageReference Include="Shesha.Core" Version="0.3.29" />
-    <PackageReference Include="Shesha.Framework" Version="0.3.29" />
-    <PackageReference Include="Shesha.NHibernate" Version="0.3.29" />
-    <PackageReference Include="Shesha.Scheduler" Version="0.3.29" />
-    <PackageReference Include="Shesha.Web.Controls" Version="0.3.29" />	
+    <PackageReference Include="Shesha.Application" Version="0.3.107" />
+    <PackageReference Include="Shesha.Core" Version="0.3.107" />
+    <PackageReference Include="Shesha.Framework" Version="0.3.107" />
+    <PackageReference Include="Shesha.NHibernate" Version="0.3.107" />
+    <PackageReference Include="Shesha.Scheduler" Version="0.3.107" />
+    <PackageReference Include="Shesha.Web.Controls" Version="0.3.107" />	
   </ItemGroup>
 
 </Project>
